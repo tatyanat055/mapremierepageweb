@@ -1,5 +1,8 @@
 h1{
 color: blue;
+font-family: 'Times New Roman', Times, serif;
+font-size: 1em;
+p{text-align: center;}
 }
 h2{
 color: brown;
