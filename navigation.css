@@ -1,0 +1,50 @@
+
+nav {
+     border-bottom: 5px;
+     border-top: 5px;
+     border-radius: 10px;
+     border-bottom-style: double;
+     border-bottom-color:rgb(9, 9, 41); 
+     font-weight: bolder;
+     font-size: medium;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     border-color: brown;
+     background-color: rgb(238, 72, 21);
+     text-decoration: dotted;
+     width: 100%;
+     margin: 0 auto;
+     text-align: center justify;
+     position: sticky;
+     top: 0px;
+}
+.h1{
+    text-align: center;
+}
+nav a{
+    display: block; /*toute la surface sera cliquable*/
+    text-decoration: none;
+    color: black;
+    padding: 10px 0px;
+}
+nav a:hover{
+    color: beige;
+    border-bottom: 2px solid gold;
+}
+nav li{
+    float: left;
+    text-align: center;
+    width: 25%
+}
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+body{
+    background-color: rgb(236, 233, 59);
+}
+
+footer{
+text-align: center;
+    background-color: red;
+}

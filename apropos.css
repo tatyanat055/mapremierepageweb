@@ -1,0 +1,39 @@
+h1{
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+
+.p{
+padding: 20px;
+margin: 20px 10px;
+}
+.p1{
+background-color: #efff33;
+border-width: 5px;
+border-style: solid;
+border-color: #09c;
+}
+
+.p2{
+background-color: #efff33;
+border: 5px solid #09c;    
+}
+.p3{
+    background-color: #efff33;
+    border: 5px ridge #09c;
+}
+.p4{
+    background-color: #efff33;
+    border: 5px ridge #09c;
+}
+.lestarifs {
+background-color: rgb(53, 38, 19);
+padding: 50px;
+border: solid 35px rgb(57, 134, 57)
+border-top : 35px darkgreen 
+border-right: 20px yellowgreen;
+border-bottom: 35px darkgreen solid;
+border-left: 35px yellowgreen dashed; 
+border-radius: 10px 10px 10px
+}
