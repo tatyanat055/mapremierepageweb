@@ -43,8 +43,7 @@ nav ul::after{
 body{
     background-color: rgb(236, 233, 59);
 }
+ footer{
+box-shadow: none red;
 
-footer{
-text-align: center;
-    background-color: red;
-}
+ }

@@ -1,9 +1,8 @@
 h1{
     font-style: italic;
     font-variant: small-caps;
+    text-align: center;
 }
-
-
 .p{
 padding: 20px;
 margin: 20px 10px;
@@ -28,12 +27,21 @@ border: 5px solid #09c;
     border: 5px ridge #09c;
 }
 .lestarifs {
-background-color: rgb(53, 38, 19);
-padding: 50px;
-border: solid 35px rgb(57, 134, 57)
-border-top : 35px darkgreen 
-border-right: 20px yellowgreen;
-border-bottom: 35px darkgreen solid;
-border-left: 35px yellowgreen dashed; 
+text-align: center;
+background-color: #efff33 
+padding: 10px;
+border: solid 10px rgb(57, 134, 57)
+border-top: 10px darkgreen 
+border-right: 10px yellowgreen;
+border-bottom: 10px darkgreen solid;
+border-left: 10px yellowgreen dashed; 
 border-radius: 10px 10px 10px
+
 }
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #abbaba;
+    color: #000;
+  }
+  
