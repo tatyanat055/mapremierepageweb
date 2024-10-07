@@ -1,10 +1,55 @@
 <html>
-<body> 
+ <nav> 
+ <link href="formulaire.css" rel="stylesheet"
 <!-- MON FORMULAIRE-->
- <P> Voici mon formulaire </P>
+ <P> FORMULAIRE </P>
  <p>
 <label>Name: </label>
 <input type="text" name="name" placeholder="Name">
+<label>Surname: </label>
+<input type="text" name="Surname" placeholder="Surname">
+<label> Date of birth: </label>
+<input type="date" id="start" name="trip-start" value="2000-01-00" min="1960-01-01" max="2017-07-10" />
+   <label>Email: </label> 
+   <input type="email" name="Email" placeholder="Email"> 
+
+   <label>Phone number: </label>
+  <input type="tel" id="phone" name="Phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+<input type="submit">
  </p>
- </body>
+ </nav>>
+<body>
+<H3>Quelles sont vos centres d'intêrets?</H3>
+<div>
+    
+    <input type="text" id="centresdinterets" name="centresdinterets" value="Completez le champ" />
+  </div>
+
+<H3> Pourquoi vous choisir pour faire cette formation ?</H3>
+
+<div>
+    <input type="text" id="titreprofessionnel" name="titreprofessionnel" value="Completez le champ" />
+</div>
+
+<h3>Que souhaites-tu faire après l'obtention de ton diplôme ?</h3>
+<div>
+    <input type="text" id="apresdiplome" name="apresdiplome" value="Completez le champ">
+</div>
+
+<H3>Quelles sont tes qualités ?</H3>
+    <input type="text" id="qualites" name="qualites" value="Completez le champ">
+
+<h3>Quels sont tes défauts ?</h3>
+<div>
+    <input type="text" id="defauts" name="defauts" value="Completez le champ">
+</div>
+ 
+
+<div>
+    <input type="submit">
+</div>
+
+<H3> </H3>
+
+</body>
 </html>
